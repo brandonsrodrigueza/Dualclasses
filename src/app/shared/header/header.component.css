@@ -1,0 +1,9 @@
+.logoheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoheaderimg {
+    width: 45%;
+}
