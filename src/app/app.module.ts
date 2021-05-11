@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import {AppRoutingModule} from './app-routing.module'; 
 import { PagesModule } from './pages/pages.module';
-
+import {ReactiveFormsModule, FormsModule} from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { NopageComponent } from './nopage/nopage.component';
@@ -24,7 +24,9 @@ import { NopageComponent } from './nopage/nopage.component';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    PagesModule
+    PagesModule,
+    ReactiveFormsModule
+
   ],
   bootstrap: [AppComponent]
 })

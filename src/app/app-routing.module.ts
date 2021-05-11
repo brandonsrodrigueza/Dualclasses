@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 
-
 import { NopageComponent } from './nopage/nopage.component';
 import { PagesRoutingModule } from './pages/pages.routing';
 import { AuthRoutesModule } from './auth/auth.routing';
